@@ -1,0 +1,131 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.startPage {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	top: 0;
+	left: 0;
+}
+.startBtn {
+	position: absolute;
+	background-image: url("../src/imgs/startGame.png");
+	width: 200px;
+	height: 170px;
+	background-size: cover;
+	cursor: pointer;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+.wrapper {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-image: url("../src/imgs/bg.jpg");
+	background-size: 100% 100%;
+}
+.wrapper .left-side {
+	position: absolute;
+	width: 24%;
+	height: 100%;
+	/*border: 1px solid black;*/
+}
+.wrapper .left-side img {
+	display: none;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+.wrapper .main {
+	position: absolute;
+	left: 25%;
+	width: 50%;
+	height: 90%;
+	/*border: 1px solid black;*/
+}
+.wrapper .main .header {
+	width: 100%;
+	height: 80px;
+	text-align: center;
+}
+.wrapper .main .header .score {
+	line-height: 80px;
+	color: #ddd;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.wrapper .main .content {
+	position: absolute;
+	width: 77.5%;
+	height: 35.3%;
+	left: 11%;
+	top: 34.4%;
+	/*border: 1px solid red;*/
+}
+.loser {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+.loser .con {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	background-image: url("../src/imgs/startP.jpg");
+	background-size: 100% 100%;
+	width: 350px;
+	height: 220px;
+	border-radius: 20px;
+}
+.loser .con .loserScore {
+	display: block;
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	left: 40%;
+	top: 42%;
+	color: #222;
+	font-size: 30px;
+	font-weight: bolder;
+}
+.loser .con .close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 40px;
+	width: 40px;
+	background-image: url("../src/imgs/closeBtn.png");
+	background-size: cover;
+	cursor: pointer;
+}
+.food {
+	background-image: url("../src/imgs/apple.png");
+	background-size: cover;
+	z-index: 2;
+}	
+.head {
+	background-image: url("../src/imgs/head.png");
+	background-size: cover;
+}	
+.body {
+	background-image: url("../src/imgs/body.png");
+	background-size: cover;
+}	
+
+
+
