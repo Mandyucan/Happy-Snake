@@ -14,7 +14,7 @@ var close = document.getElementsByClassName('close')[0];
 var startP = document.getElementById('startP');
 var startBtn = document.getElementsByClassName('startBtn')[0];
 var snakeMove;
-var speed = 200;
+var speed = 300;
 var startGameBool = true;
 var startPauseBool = true;
 //初始化函数，存储参数，如 地图的大小宽高。食物的宽高等；
